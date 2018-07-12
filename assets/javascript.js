@@ -1,3 +1,11 @@
+//GLOBAL VARIABLES
+
+
+//FUNCTIONS
 document.getElementById("lbs").addEventListener('input', function () {
-    console.log(123)
+    var pounds = event.target.value;
+    console.log(pounds);
 })
+
+
+//PROCESSES
